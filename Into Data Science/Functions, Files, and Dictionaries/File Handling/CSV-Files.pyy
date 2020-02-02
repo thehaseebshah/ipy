@@ -1,0 +1,4 @@
+from csv import reader
+
+with open("data.csv") as file:
+    csv_file = reader(file)
